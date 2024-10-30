@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+@layer components {
+  .nav-item {
+    @apply px-3 py-2 rounded-md text-sm font-medium;
+  }
+  
+  .nav-item-active {
+    @apply bg-gray-900 text-white;
+  }
+  
+  .nav-item-inactive {
+    @apply text-gray-300 hover:bg-gray-700 hover:text-white;
+  }
+}
+
+.logo {
+  @apply font-bold text-xl tracking-tight;
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
