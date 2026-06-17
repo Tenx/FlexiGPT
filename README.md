@@ -37,3 +37,6 @@ FlexiGPT is a versatile AI chat assistant platform that allows you to create, cu
 ### Installation
 
 1. Clone the repository: 
+## License
+
+MIT License — see [LICENSE](LICENSE) for details.
